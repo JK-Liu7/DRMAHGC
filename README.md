@@ -11,18 +11,7 @@ Drug Repositioning by Multi-Aspect Heterogeneous Graph Contrastive Learning and 
 - scikit-learn 0.24.2
 
 # Data:
-The data files needed to run the model, which contain B-dataset, C-dataset and F-dataset.
-- DrugFingerprint, DrugGIP: The similarity measurements of drugs to construct the similarity network
-- DiseasePS, DiseaseGIP: The similarity measurements of diseases to construct the similarity network
-- Protein_sequence, ProteinGIP_Drug, ProteinGIP_Disease: The similarity measurements of proteins to construct the similarity network
-- DrugDiseaseAssociationNumber: The known drug disease associations
-- DrugProteinAssociationNumber: The known drug protein associations
-- ProteinDiseaseAssociationNumber: The known disease protein associations
-
-# SGMAE:
-- Implementation of SGMAE
-- Embedding/: The high-order feature embeddings of drugs and diseases obtained by SGMAE
-- Usage: Execute ```python train_GAE.py``` 
+The data files needed to run the model.
 
 # Code:
 - data_preprocess.py: Methods of data processing
@@ -33,4 +22,7 @@ The data files needed to run the model, which contain B-dataset, C-dataset and F
 - train_DDA.py: Train the model
 
 # Usage:
-Execute ```python train_DDA.py``` 
+Execute ```python train.py``` 
+
+
+<img width="4383" height="2475" alt="overall architecture" src="https://github.com/user-attachments/assets/c9244cbf-6972-4445-a6b7-28990a9c453d" />
